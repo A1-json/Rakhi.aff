@@ -200,7 +200,7 @@
     <img src="rakhi.gif" alt="Rakhi" class="rakhi-img" id="rakhiImage" />
 
     <div class="greeting" id="greeting">
-      <span class="name" id="greetName">Someone</span> ki taraf se: 
+      <span class="name" id="greetName">Someone</span> ତରଫରୁ: 
       <span id="greetMsg">aapko Raksha Bandhan ki bahut bahut badhai</span>
     </div>
 
@@ -240,7 +240,7 @@
       document.getElementById("greetName").textContent = name;
       document.getElementById("greetMsg").textContent = msg;
       const url = `${location.origin}${location.pathname}?name=${encodeURIComponent(name)}&msg=${encodeURIComponent(msg)}`;
-      document.getElementById("whatsappBtn").href = `https://wa.me/?text=${encodeURIComponent(`${name} ki taraf se: ${msg}\n${url}`)}`;
+      document.getElementById("whatsappBtn").href = `https://wa.me/?text=${encodeURIComponent(`${name} ତରଫରୁ: ${msg}\n${url}`)}`;
     }
 
     document.getElementById("nameInput").addEventListener("input", () => {
